@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Informacion clima</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   
+</head>
+
+<body>
+
+   <header class="header">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+
+         <a href="home.html" class="logo">House - Burger<span><i class="fa-solid fa-burger span-logo"></i></span> </a>
+         <nav class="navbar">
+            <a href="home.html">Inicio</a>
+            <a href="about.html">Nosotros</a>
+            <a href="menu.html">Menú</a>
+            <a href="info-climate.html">Info</a>
+            <a href="contact.html">Contacto</a>
+         </nav>
+      </section>
+
+   </header>
+
+   <div class="heading">
+      <h3>Informacion importante</h3>
+      <p><a href="home.html">Inicio </a> <span> / Info </span></p>
+   </div>
+
+   
+
+   <section class="info products">
+      <h1 class="title">Info Climatica</h1>
+
+      <div class="content-info">
+         <div class="description-info">
+            <h3>¡Atencion al clima de hoy!</h3>
+            <p>Antes de visitarnos por nuestra sucursal podes verificar como estará el clima hoy</p>
+         </div>
+
+         <div class="weather-content">
+            <h2>Buscador del clima</h2>
+            <div class="result">
+               <p>Agrege cuidad y pais</p>
+            </div>
+            <form action="" method="POST" class="get-weather">
+               <input type="text" name="city" id="city" placeholder="Agrege una ciudad...">
+               <select name="" id="country">
+                  <option disabled selected value="">Seleccione un país</option>
+                  <option value="AR">Argentina</option>
+                  <option value="CO">Colombia</option>
+                  <option value="CR">Costa Rica</option>
+                  <option value="ES">España</option>
+                  <option value="US">Estados Unidos</option>
+                  <option value="MX">México</option>
+                  <option value="PE">Perú</option>
+                  <option value="URU">Uruguay</option>
+                  <option value="BRA">Brasil</option>
+               </select>
+               <input type="submit" name="obtener" id="obtener" class="btn" value="Obtener clima">
+            </form>
+         </div>
+      </div>
+   </section>
+
+
+
+
+
+
+
+   <footer class="footer">
+      <h2 class="title">Nuestra Ubicación</h2>
+      <section class="box-container">
+
+         <div class="box">
+            <img src="images/email-icon.png" alt="email icono">
+            <h3>Nuestro email</h3>
+            <a href="#">correo@correo.com</a>
+            <a href="#">correo@correo.com</a>
+         </div>
+
+         <div class="box">
+            <img src="images/clock-icon.png" alt="">
+            <h3>Horarios</h3>
+            <p>08:00 a 00:10 </p>
+            <p>Se atiende las 24/H</p>
+         </div>
+
+         <div class="box">
+            <img src="images/map-icon.png" alt="ubicacion">
+            <h3>Dirección</h3>
+            <a href="#">Argenina, Catamarca </a>
+            <p>1232-6656 norte</p>
+         </div>
+
+         <div class="box">
+            <img src="images/phone-icon.png" alt="celular">
+            <h3>Nos llamas</h3>
+            <a href="#">3837-691633</a>
+            <a href="#">3837-491420</a>
+         </div>
+
+      </section>
+
+      <div class="credit">&copy; copyright @ 2022 - <span> Todos los derechos reservados</span>
+         <p>Desarrollado por Jose Montivero | Front-End Developer</p>
+         <a href="profile.html">
+            <p>Sobre el desarrollador</p>
+         </a>
+      </div>
+
+
+   </footer>
+   <script src="js/api-clima.js"></script>
+   <script src="js/script.js"></script>
+   
+
+</body>
+
+</html>

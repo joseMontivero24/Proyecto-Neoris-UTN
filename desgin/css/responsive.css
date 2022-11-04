@@ -1,0 +1,235 @@
+@media (max-width:991px) {
+
+  html {
+    font-size: 55%;
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .header .flex .logo,
+  .span-logo{
+    
+    font-size: 5rem;
+  }
+
+
+  #menu-btn {
+    display: inline-block;
+  }
+
+
+  .header .flex .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background-color: #fed330;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  .header .flex .navbar.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    height: 100vh;
+  }
+
+  .header .flex .navbar a {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    display: block;
+    width: 100%;
+    margin: .8rem;
+    padding: .5rem 0;
+  }
+
+  .header .flex .navbar a:hover {
+    background-color: rgba(128, 128, 128, 0.445);
+    color: white;
+    transform: none;
+  }
+
+  .btn {
+    width: 90%;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+  }
+  .button{
+    
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    
+ }
+
+  .header .flex .navbar .active {
+    display: block;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .products .box-container .box .flex h4,
+  .cat {
+    font-size: 2.8rem;
+  }
+
+  .products .box-container .box .flex .price span {
+    font-size: 3rem;
+  }
+  .about .row .content p{
+    font-size: 2rem;
+    padding-left: 1rem;
+  }
+
+  .footer .box-container .box h3 {
+    font-size: 2.8rem;
+  }
+
+  .footer .box-container .box p {
+    font-size: 2.5rem;
+  }
+
+  .footer .box-container .box a {
+    font-size: 2.5rem;
+  }
+
+  .user-details{
+    display: block;
+  }
+  .user-details .user{
+    margin-bottom: 3rem;
+  }
+  .user-details .user .cv{
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+  }
+  .user-details .paragraph{
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .content-info{
+    display: block;
+  
+  }
+  .description-info{
+    height: 25rem;
+  }
+  .error-form{
+    width: 43%;
+  }
+
+}
+
+@media (max-width:450px) {
+
+  html {
+    font-size: 50%;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .header .flex .logo {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .span-logo{
+    font-size: 2.8rem;
+    padding: .4rem;
+  }
+  .btn {
+    width: 100%;
+  }
+  .products .box-container {
+    grid-template-columns: 1fr;
+  }
+
+  .products .box-container .box .flex h4,
+  .cat {
+    font-size: 2.5rem;
+  }
+
+  .products .box-container .box .flex .price span {
+    font-size: 2.5rem;
+  }
+  .about .row .image img{
+    margin-bottom: 3rem;
+  }
+  .about .row .content p{
+    font-size: 2rem;
+  }
+
+  .footer .box-container .box h3 {
+    font-size: 2.8rem;
+  }
+
+  .footer .box-container .box p {
+    font-size: 2.5rem;
+  }
+
+  .footer .box-container .box a {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    display: block;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+  }
+
+ 
+  .user-details .paragraph{
+    
+    font-size: 2.5rem;
+  }
+  .error-form{
+    width: 84%;
+  }
+  .container-cotizacion .nose .grid{
+    height: 70rem;
+  }
+
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 50%;
+  }
+
+  .title {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .header .flex .logo {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .span-logo{
+    font-size: 3rem;
+    padding: .4rem;
+  }
+  .description-info h3{
+    font-size: 3rem;
+  }
+  .description-info p{
+    font-size: 2rem;
+  }
+  .error-form{
+    width: 82%;
+  }
+  .container-cotizacion .nose .grid{
+    height: 75rem;
+  }
+  
+  
+}

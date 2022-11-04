@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mi Menú</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+   <header class="header">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+
+         <a href="home.html" class="logo">House - Burger<span><i class="fa-solid fa-burger span-logo"></i></span> </a>
+         <nav class="navbar">
+            <a href="home.html">Inicio</a>
+            <a href="about.html">Nosotros</a>
+            <a href="menu.html">Menú</a>
+            <a href="info-climate.html">Info</a>
+            <a href="contact.html">Contacto</a>
+         </nav>
+
+         <div class="icons two columns">
+            <ul>
+               <li class="submenu">
+                  <a href="#"><i class="fas fa-shopping-cart" id="img-carrito"></i></a>
+
+                  <div id="carrito">
+                     <table id="lista-carrito" class="u-full-width lista-card">
+                        <thead class="padre">
+                           <tr class="padre-hijo">
+                              <th>Imagen</th>
+                              <th>Nombre</th>
+                              <th>Precio</th>
+                              <th>Cantidad</th>
+                              <th></th>
+                           </tr>
+                        </thead>
+                        <tbody></tbody>
+                     </table>
+                     <a href="#" id="vaciar-carrito" class="btn-5 u-full-width borrar-comida">Vaciar carrito</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <!--haciendo carrito para agregar la comida y su cantidad-->
+
+      </section>
+
+   </header>
+
+   <div class="heading">
+      <h3>Nuestro Menú</h3>
+      <p><a href="home.html">Inicio </a> <span> / Menú</span></p>
+   </div>
+
+   <section class="products" id="lista-comida">
+
+      <h1 class="title">Todos los platillos</h1>
+
+      <div class="box-container">
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida-menu 1.jpg" alt="comida">
+            <h5 class="cat">Comida rapida</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="7">Agregar al Carrito</a>
+
+         </form>
+
+
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida-menu2.jpg" alt="comida">
+            <h5 class="cat">Comida rapida</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="8">Agregar al Carrito</a>
+
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida-menu3.jpg" alt="comida">
+            <h5 class="cat">Comida rapida</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="9">Agregar al Carrito</a>
+
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/chupito 1.png" alt="bebida">
+            <h5 class="cat">Refrescos</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Refresco</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="10">Agregar al Carrito</a>
+
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/chupito 2.png" alt="bebida">
+            <h5 class="cat">Refrescos</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Refresco</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="11">Agregar al Carrito</a>
+
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/chupito 3.png" alt="bebida">
+            <h5 class="cat">Refrescos</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Refrescos</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="12">Agregar al Carrito</a>
+
+         </form>
+
+
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida-menu 5.png" alt="comida">
+            <h5 class="cat">Comida rapida</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="13">Agregar al Carrito</a>
+
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida-menu 4.png" alt="comida">
+            <h5 class="cat">Comida rapida</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="14">Agregar al Carrito</a>
+
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida-menu 6.png" alt="comida">
+            <h5 class="cat">Comida rapida</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="15">Agregar al Carrito</a>
+
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/postre 1.png" alt="postre">
+            <h5 class="cat">Postres</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Postre</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="16">Agregar al Carrito</a>
+
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/postre 4.png" alt="postre">
+            <h5 class="cat">Postres</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Postre</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="17">Agregar al Carrito</a>
+
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/postre 5.png" alt="comida">
+            <h5 class="cat">Postres</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Postre</h4>
+               </div>
+
+               <div class="price"><span>$1200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="18">Agregar al Carrito</a>
+
+         </form>
+
+      </div>
+
+   </section>
+
+
+
+
+
+
+
+   <footer class="footer">
+      <h2 class="title">Nuestra Ubicación</h2>
+      <section class="box-container">
+
+         <div class="box">
+            <img src="images/email-icon.png" alt="email icono">
+            <h3>Nuestro email</h3>
+            <a href="#">correo@correo.com</a>
+            <a href="#">correo@correo.com</a>
+         </div>
+
+         <div class="box">
+            <img src="images/clock-icon.png" alt="">
+            <h3>Horarios</h3>
+            <p>08:00 a 00:10 </p>
+            <p>Se atiende las 24/H</p>
+         </div>
+
+         <div class="box">
+            <img src="images/map-icon.png" alt="ubicacion">
+            <h3>Dirección</h3>
+            <a href="#">Argenina, Catamarca </a>
+            <p>1232-6656 norte</p>
+         </div>
+
+         <div class="box">
+            <img src="images/phone-icon.png" alt="celular">
+            <h3>Nos llamas</h3>
+            <a href="#">3837-691633</a>
+            <a href="#">3837-491420</a>
+         </div>
+
+      </section>
+
+      <div class="credit">&copy; copyright @ 2022 - <span> Todos los derechos reservados</span>
+         <p>Desarrollado por Jose Montivero | Front-End Developer</p>
+         <a href="profile.html">
+            <p>Sobre el desarrollador</p>
+         </a>
+      </div>
+
+
+   </footer>
+
+
+
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>

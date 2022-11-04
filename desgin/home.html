@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Inicio</title>
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+
+   <header class="header">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <a href="home.html" class="logo">House - Burger<span><i class="fa-solid fa-burger span-logo"></i></span> </a>
+         <nav class="navbar">
+            <a href="home.html" class="active">Inicio</a>
+            <div class="dropdown">
+               <button class="dropbtn"><a href="home.html">Inicio</a></button>
+               <div class="dropdown-content">
+                  <a href="#servicios" id="non">Servicios</a>
+                  <a href="#tendencia" id="non2">Tendencia</a>
+                  <a href="#cotiza" id="non3">Cotiza</a>
+                  <a href="#ubicacion" id="non4">Ubicación</a>
+               </div>
+            </div>
+            <a href="about.html">Nosotros</a>
+            <a href="menu.html">Menú</a>
+            <a href="info-climate.html">Info</a>
+            <a href="contact.html">Contacto</a>
+         </nav>
+
+
+
+
+
+         <div class="icons two columns">
+            <ul>
+               <li class="submenu">
+                  <a href="#"><i class="fas fa-shopping-cart" id="img-carrito"></i></a>
+
+                  <div id="carrito">
+                     <table id="lista-carrito" class="u-full-width lista-card">
+                        <thead class="padre">
+                           <tr class="padre-hijo">
+                              <th>Imagen</th>
+                              <th>Nombre</th>
+                              <th>Precio</th>
+                              <th>Cantidad</th>
+                              <th></th>
+                           </tr>
+                        </thead>
+                        <tbody></tbody>
+                     </table>
+                     <a href="#" id="vaciar-carrito" class="btn-5 button u-full-width borrar-comida">Vaciar carrito</a>
+                  </div>
+               </li>
+            </ul>
+
+
+         </div>
+         <!--haciendo carrito para agregar la comida y su cantidad-->
+
+
+      </section>
+
+   </header>
+
+   <section class="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="content">
+                  <span>Ordenar online</span>
+                  <h3>Deliciosa pizza</h3>
+                  <a href="menu.html" class="btn">Ver menú</a>
+               </div>
+               <div class="image">
+                  <img src="images/prueba2.jpg" alt="imagen pizza">
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="content">
+                  <span>Ordenar online</span>
+                  <h3>Super Pancho</h3>
+                  <a href="menu.html" class="btn">Ver menú</a>
+               </div>
+               <div class="image">
+                  <img src="images/pancho.png" alt="imagen hamburgesa">
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="content">
+                  <span>Ordenar online</span>
+                  <h3>Pollo Asado</h3>
+                  <a href="menu.html" class="btn">Ver menú</a>
+               </div>
+               <div class="image">
+                  <img src="images/pollo.png" alt="imagen pollo">
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+   <section class="category" id="servicios">
+      <h1 class="title">servicios disponibles</h1>
+
+
+      <div class="box-container">
+
+         <a href="#" class="box">
+            <img src="images/cat-1.png" alt="">
+            <h3>Comida Rápida</h3>
+         </a>
+
+         <a href="#" class="box">
+            <img src="images/cat-2.png" alt="">
+            <h3>Platos Principales</h3>
+         </a>
+
+         <a href="#" class="box">
+            <img src="images/cat-3.png" alt="">
+            <h3>Refrescos</h3>
+         </a>
+
+         <a href="#" class="box">
+            <img src="images/cat-4.png" alt="">
+            <h3>Postres</h3>
+         </a>
+
+      </div>
+
+   </section>
+
+   <section class="products" id="lista-comida">
+
+      <h2 id="tendencia" class="title">Tendencia de platillos</h2>
+
+      <div class="box-container">
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida1.jpg" alt="comida 1">
+            <h5 class="cat">Comida rapida</h5>
+
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida 1</h4>
+               </div>
+               <div class="price"><span>$1.200</span></div>
+
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="1">Agregar al Carrito</a>
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida 2.jpg" alt="comida 2">
+            <h5 class="cat">Platos</h5>
+
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida 2</h4>
+               </div>
+               <div class="price"><span>$1.200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="2">Agregar al Carrito</a>
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida 3.png" alt="comida 3">
+            <h5 class="cat">Comida rapida</h5>
+
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida</h4>
+               </div>
+               <div class="price"><span>$1.200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="3">Agregar al Carrito</a>
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/bebida 1.jpg" alt="bebidas">
+            <h5 class="cat">Refrescos</h5>
+            <div class="flex">
+               <div class="name">
+                  <h4>Bebida</h4>
+               </div>
+
+               <div class="price"><span>$1.200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="4">Agregar al Carrito</a>
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/bebida 2.jpg" alt="bebidas">
+            <h5 class="cat">Refrescos</h5>
+
+            <div class="flex">
+               <div class="name">
+                  <h4>Bebidas</h4>
+               </div>
+               <div class="price"><span>$1.200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="5">Agregar al Carrito</a>
+         </form>
+
+         <form accept="" method="post" class="box">
+            <button class="fas fa-shopping-cart" type="submit" name="add_to_cart"></button>
+            <img src="uploaded_img/comida 6.jpg" alt="">
+            <h5 class="cat">Comida Rapida</h5>
+
+            <div class="flex">
+               <div class="name">
+                  <h4>Comida</h4>
+               </div>
+               <div class="price"><span>$1.200</span></div>
+            </div>
+            <a href="#" class="btn button-primary button input agregar-carrito" data-id="6">Agregar al Carrito</a>
+         </form>
+
+      </div>
+
+   </section>
+
+
+
+
+   <section class="products container-cotizacion" id="cotiza">
+      <div class="">
+         <h2 class="title">Cotizá tus pedidos </h2>
+      </div>
+
+      <div id="resultadoValidacion"></div>
+
+      <div class="nose">
+         <form action="#" name="registration" id="registration" class="grid">
+
+            <div class="inputBox">
+               <label id="nombre">Nombre y Apellido</label>
+               <input type="text" required placeholder="Escribe aquí..." id="nombre" name="nombre">
+            </div>
+
+            <div class="inputBox">
+               <label id="numero">Tu numero de telefono</label>
+               <input type="number" required placeholder="Escribe tu numero..." id="numero" name="numero_telefono">
+
+            </div>
+
+            <div class="inputBox">
+               <label id="email">Email</label>
+               <input type="email" required placeholder="Email del Cliente..." id="email" name="email_cliente">
+            </div>
+
+
+
+            <div class="inputBox">
+               <label id="pedido">Tu pedido a cotizar</label>
+               <input type="text" placeholder="Escribe el pedido que cotizaras..." id="pedido" name="pedido">
+            </div>
+            <div class="inputBox">
+               <label id="platillos">Numero de platillos a pedir</label>
+               <input type="number" required placeholder="Numero de platos a cotizar...." id="platillos"
+                  name="numero_platos">
+            </div>
+
+            <div class="inputBox">
+               <label id="hora">Horario para recibir tu pedido</label>
+               <input type="datetime-local" id="hora" required>
+            </div>
+
+            <div class="inputBox dif-3">
+               <label id="detalles">Mas detalles sobre el pedido</label>
+               <input type="text" required placeholder="Escribe detalles del pedido..." id="detalle"
+                  name="detalle_pedido">
+            </div>
+
+
+
+            <div class="flex dif-1">
+               <div class="inputBox" id="direccion">
+                  <label for="direccion">Tu dirección</label>
+                  <textarea required placeholder="Direccion del  domicilio..." id="direccion" cols="30"
+                     rows="10"></textarea>
+               </div>
+            </div>
+
+            <div dif-2 id="conteiner-btn">
+               <input type="submit" value="Enviar Orden" id="guardar" class="button">
+               <input type="reset" value="Cancelar" class="button" id="cancelar">
+            </div>
+
+         </form>
+      </div>
+
+   </section>
+
+
+
+
+
+
+   <footer class="footer" id="ubicacion">
+      <h2 class="title">Nuestra Ubicación</h2>
+      <section class="box-container">
+
+         <div class="box">
+            <img src="images/email-icon.png" alt="email icono">
+            <h3>Nuestro email</h3>
+            <a href="#">correo@correo.com</a>
+            <a href="#">correo@correo.com</a>
+         </div>
+
+         <div class="box">
+            <img src="images/clock-icon.png" alt="">
+            <h3>Horarios</h3>
+            <p>08:00 a 00:10 </p>
+            <p>Se atiende las 24/H</p>
+         </div>
+
+         <div class="box">
+            <img src="images/map-icon.png" alt="ubicacion">
+            <h3>Dirección</h3>
+            <a href="#">Argenina, Catamarca </a>
+            <p>1232-6656 norte</p>
+         </div>
+
+         <div class="box">
+            <img src="images/phone-icon.png" alt="celular">
+            <h3>Nos llamas</h3>
+            <a href="#">3837-691633</a>
+            <a href="#">3837-491420</a>
+         </div>
+
+      </section>
+
+      <div class="credit">&copy; copyright @ 2022 - <span> Todos los derechos reservados</span>
+         <p>Desarrollado por Jose Montivero | Front-End Developer</p>
+         <a href="profile.html">
+            <p>Sobre el desarrollador</p>
+         </a>
+      </div>
+
+
+   </footer>
+
+
+
+
+
+
+
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+   <script src="js/script.js"></script>
+
+   <script>
+      var swiper = new Swiper(".home-slider", {
+         loop: true,
+         grabCursor: true,
+         effect: "flip",
+         pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+         },
+      });
+   </script>
+
+</body>
+
+</html>

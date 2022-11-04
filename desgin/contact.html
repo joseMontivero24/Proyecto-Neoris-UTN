@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contacto</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="js/form_jquery.js"></script>
+</head>
+<body>
+   
+   <header class="header">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+
+         <a href="home.html" class="logo">House - Burger<span><i class="fa-solid fa-burger span-logo"></i></span> </a>
+         <nav class="navbar">
+            <a href="home.html">Inicio</a>
+            <a href="about.html">Nosotros</a>
+            <a href="menu.html">Menú</a>
+            <a href="info-climate.html">Info</a>
+            <a href="contact.html">Contacto</a>
+         </nav>
+      </section>
+   
+   </header>
+
+   <div class="heading">
+      <h3>Contactanos</h3>
+      <p><a href="home.html">Inicio </a> <span> / Contacto</span></p>
+   </div>
+
+   <section class="contact">
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/contacto.jpg" alt="">
+         </div>
+
+         <form action="" id="form-contacto">
+            <h3> Tu consulta no molesta!</h3>
+            <input type="text" id="name" name="name" placeholder="Tu nombre..." maxlength="50" class="box">
+            <div id="mensaje-1" class="error-form">Ingrese su nombre</div>
+
+            <input type="email" id="email" name="email"  placeholder="Tu mail..." maxlength="50" class="box">
+            <div id="mensaje-2" class="error-form">Ingrese su @Email</div>
+
+
+            <input type="number" id="numero" name="number"  placeholder="Tu numero..." max="9999999999" min="0" class="box" onkeypress="if(this.value.length == 10) return false;">
+            <div id="mensaje-3" class="error-form">Ingrese su numero</div>
+
+            
+            <textarea name="msg" id="campo" placeholder="Escribe un mensaje..."  class="box" cols="30" rows="10" maxlength="500"></textarea>
+            <div id="mensaje-4" class="error-form">Deje una descripción</div>
+
+            <input type="submit" id="enviar" value="Enviar mensaje" class="btn btn-contact" name="send">
+         </form>
+
+      </div>
+
+   </section>
+
+
+
+
+   <footer class="footer">
+      <h2 class="title">Nuestra Ubicación</h2>
+      <section class="box-container">
+
+         <div class="box">
+            <img src="images/email-icon.png" alt="email icono">
+            <h3>Nuestro email</h3>
+            <a href="#">correo@correo.com</a>
+            <a href="#">correo@correo.com</a>
+         </div>
+
+         <div class="box">
+            <img src="images/clock-icon.png" alt="">
+            <h3>Horarios</h3>
+            <p>08:00 a 00:10 </p>
+            <p>Se atiende las 24/H</p>
+         </div>
+
+         <div class="box">
+            <img src="images/map-icon.png" alt="ubicacion">
+            <h3>Dirección</h3>
+            <a href="#">Argenina, Catamarca </a> 
+            <p>1232-6656 norte</p>
+         </div>
+
+         <div class="box">
+            <img src="images/phone-icon.png" alt="celular">
+            <h3>Nos llamas</h3>
+            <a href="#">3837-691633</a>
+            <a href="#">3837-491420</a>
+         </div>
+
+      </section>
+
+      <div class="credit">&copy; copyright @ 2022 - <span> Todos los derechos reservados</span> 
+         <p>Desarrollado por Jose Montivero | Front-End Developer</p>
+         <a href="profile.html"><p>Sobre el desarrollador</p></a> 
+      </div>
+   
+
+   </footer>
+
+
+
+
+   <script src="js/script.js"></script>
+
+</body>
+</html>
