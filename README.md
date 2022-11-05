@@ -1,6 +1,6 @@
 # Proyecto-Neoris-UTN
 Landing page de un restaurant online de comida.
-El presente proyecto cuenta con distintas secciones, con un menu responsive, carrito funcional para agregar y quitar productos,
+El presente proyecto cuenta con distintas secciones, con un menu responsive, carrito funcional para agregar y quitar productos, localStorage para no perder los productos del carrito al cargar el sitio,
 tambien cuenta con una api del clima, validaciones de formularios y es completamente responsive.
 
 
