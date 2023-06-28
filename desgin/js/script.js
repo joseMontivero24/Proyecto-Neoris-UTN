@@ -21,13 +21,13 @@ let articulosCarrito = [];
 
 cargarEventListeners();
 function cargarEventListeners() {
-   // para agregar un curso al precionar 'agregar al carrito'
+   // para agregar un comida al precionar 'agregar al carrito'
    listaComida.addEventListener('click', agregarComida);
 
    // para eliliminar la comida
    carrito.addEventListener('click', eliminarComida);
 
-   // muestra los cursos del local storage
+   // muestra los comida del local storage
    document.addEventListener('DOMContentLoaded', () => {
       articulosCarrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
@@ -50,6 +50,7 @@ function agregarComida(e) {
    e.preventDefault();
 
    if (e.target.classList.contains('agregar-carrito') ) {
+     
       const comidaSeleccionada = e.target.parentElement;
       leerDatosComida(comidaSeleccionada);
    }
@@ -57,9 +58,10 @@ function agregarComida(e) {
 
 // elimina un curso del carrito
 function eliminarComida(e) {
+   e.preventDefault();
+   
    if (e.target.classList.contains('borrar-comida')) {
       const comidaId = e.target.getAttribute('data-id');
-
 
       //para eliminar del arreglo 
       articulosCarrito = articulosCarrito.filter(comida => comida.id !== comidaId );
